@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+// FInd missing element in sorted Array
+// time complexity=O(n2);
+
 int main(){
     int array[]={6,7,8,9,11,12,13,16,17};
 
