@@ -40,16 +40,17 @@ MinMax findMinandMax(int * array, int length){
 
     MinMax result;
     result.min=array[0];
-    result.max=array[1];
+    result.max=array[0];
 
-    for(int i=0;i<length;i++){
+    for(int i=1;i<length;i++){
 
-        if(array[i]>result.max){
-            result.max=array[i];
-        }
-        else if(array[i]<result.min){
+        if(array[i]<result.min){
             result.min=array[i];
         }
+        else if(array[i]>result.max){
+            result.max=array[i];
+        }
+        
     }
 return result;
     
