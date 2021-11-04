@@ -3,6 +3,7 @@
 using namespace std;
 
 // Finding the missing element from unsorted array
+// this takes a timeComplexity of O{n} with a space complexity of O{n}.
 
 typedef struct MinMax{
 
